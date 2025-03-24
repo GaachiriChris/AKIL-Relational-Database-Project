@@ -1,0 +1,8 @@
+productid,productname,description,categoryid,quantity,supplierid,reorderpoint,unitcost,sellingprice,lastrestockdate
+ALTASMS-S,Mens All Star T-Shirt - Small,"Premium cotton t-shirt with company logo, Size S",CAT001,20,SUP10001,15,850.00,1500.00,2025-03-01
+ALT-LND-XL,Mens Lando Bodywarmer - XL,"Insulated bodywarmer with multiple pockets, size XL",CAT002,35,SUP10002,20,1200.00,2200.00,2025-03-05
+ALT-TRM-M,Mens Tournament Golf Shirt - M,Performance fabric golf shirt with moisture control,CAT003,30,SUP10003,25,950.00,1800.00,2025-03-10
+ALT-TRM-L,Mens Tournament Golf Shirt - L,Performance fabric golf shirt with moisture control,CAT003,20,SUP10004,25,950.00,1800.00,2025-03-12
+ALT-ASMS-M,Mens All Star T-Shirt - M,Premium cotton t-shirt with company logo size M,CAT001,30,SUP10005,15,850.00,1500.00,2025-03-15
+ALT-NCT-L,Corporate Jacket - L,Waterproof corporate jacket with fleece lining,CAT004,15,SUP10006,10,2500.00,4500.00,2025-03-18
+ALT-PEN-01,Executive Metal Pen,Premium metal pen with laser engraving,CAT005,100,SUP10007,50,200.00,450.00,2025-03-20
