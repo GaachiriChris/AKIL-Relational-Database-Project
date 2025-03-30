@@ -1,6 +1,6 @@
 
 -- Table structure for table `users`
---
+
 
 CREATE TABLE `users` (
   `UserID` varchar(10) NOT NULL,
