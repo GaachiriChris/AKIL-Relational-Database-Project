@@ -1,0 +1,6 @@
+"OrderID","CustomerID","OrderDate","DeliveryAddress","TotalAmount","OrderStatus","CreatedBy"
+"O001","U008","2025-03-01",NULL,"1500.00","Completed",NULL
+"O002","U009","2025-03-02",NULL,"2300.50","Pending",NULL
+"O003","U010","2025-03-03",NULL,"980.75","Shipped",NULL
+"O004","U011","2025-03-04",NULL,"1200.00","Processing",NULL
+"O005","U012","2025-03-05",NULL,"1750.25","Completed",NULL
