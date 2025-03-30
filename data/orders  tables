@@ -1,0 +1,51 @@
+
+-- Table structure for table `orders`
+
+CREATE TABLE `orders` (
+  `OrderID` varchar(10) NOT NULL,
+  `CustomerID` varchar(10) DEFAULT NULL,
+  `OrderDate` date NOT NULL,
+  `DeliveryAddress` varchar(255) DEFAULT NULL,
+  `TotalAmount` decimal(10,2) DEFAULT NULL,
+  `OrderStatus` varchar(50) DEFAULT NULL,
+  `CreatedBy` varchar(10) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `orders`
+--
+
+INSERT INTO `orders` (`OrderID`, `CustomerID`, `OrderDate`, `DeliveryAddress`, `TotalAmount`, `OrderStatus`, `CreatedBy`) VALUES
+('O001', 'U008', '2025-03-01', NULL, 1500.00, 'Completed', NULL),
+('O002', 'U009', '2025-03-02', NULL, 2300.50, 'Pending', NULL),
+('O003', 'U010', '2025-03-03', NULL, 980.75, 'Shipped', NULL),
+('O004', 'U011', '2025-03-04', NULL, 1200.00, 'Processing', NULL),
+('O005', 'U012', '2025-03-05', NULL, 1750.25, 'Completed', NULL);
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `orders`
+--
+ALTER TABLE `orders`
+  ADD PRIMARY KEY (`OrderID`),
+  ADD KEY `CustomerID` (`CustomerID`),
+  ADD KEY `CreatedBy` (`CreatedBy`);
+
+--
+-- Constraints for dumped tables
+--
+
+--
+-- Constraints for table `orders`
+--
+ALTER TABLE `orders`
+  ADD CONSTRAINT `orders_ibfk_1` FOREIGN KEY (`CustomerID`) REFERENCES `users` (`UserID`),
+  ADD CONSTRAINT `orders_ibfk_2` FOREIGN KEY (`CreatedBy`) REFERENCES `users` (`UserID`);
+COMMIT;
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
