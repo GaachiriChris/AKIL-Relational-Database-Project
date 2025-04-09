@@ -1,0 +1,6 @@
+"orderid","customerid","orderdate","deliveryaddress","totalamount","orderstatus","createdby"
+"ORD00001","CN00001","2025-03-15","Nairobi Hospital , Arguings Kodhek Rd","15000.00","Processing","EMP0003"
+"ORD00002","CN00002","2025-03-16","Sarova Stanley , Kimaini St","22000.00","Packaging","EMP0003"
+"ORD00003","CN00003","2025-03-17","Equity Centre , Upper Hill","36000.00","Transit","EMP0003"
+"ORD00004","CN00004","2025-03-18","KenGen Pension Plaza , Kolobot Rd","18000.00","Delivered","EMP0003"
+"ORD00005","CN00005","2025-03-19","Safaricom House , Waiyaki Way","30000.00","Dispatched","EMP0003"
